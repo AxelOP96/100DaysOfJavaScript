@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&display=swap');
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+p{
+    font-size: 1.6rem;
+    line-height: 1.5;
+}
+img{
+    width: 100%;
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.counter-div{
+    width: 40rem;
+    border: 1px solid rgb(198, 198, 200);
+    padding: 1rem;
+    background-color:  rgb(125, 125, 201);
+    color: #fff;
+    text-align: center;
+    border-radius: 5px;
+}
+.counter-div > *{
+    margin-bottom: 2rem;
+}
+.count{
+    font-size: 4rem;
+}
+.buttons button{
+    padding: 1rem;
+    margin: 0 1rem;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+    color: #535050;
+    cursor:pointer;
+}
+button.substract{
+    background-color: rgb(200, 65, 65);
+}
+button.add{
+    background-color: rgb(89, 184, 89);
+}
+button.reset{
+    background-color: #fff;
+}
