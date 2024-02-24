@@ -1,12 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     box-sizing: border-box;
+}
+body{
+    font-family: "Raleway", sans-serif;
+    background-color: #F8EFBA;
 }
 .container{
     display: flex;
 }
 a{
     text-decoration: none;
+    box-shadow: 1px 4px 5px 1px rgba(137, 134, 134, 0.75);
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #f5cd79;
+    color: rgb(170, 170, 170);
+    text-align: center;
+    display: inline-block;
+    width: 60px;
 }
 .align{
     padding: 10px;
@@ -15,4 +28,6 @@ a{
 }
 .center{
     text-align: center;
+    margin: 2em 0;
+    color: orange;
 }
