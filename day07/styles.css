@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(70, 70, 94);
+    color: white;
+}
+section{
+    margin: 150px auto;
+    padding: 4rem;
+    width: 50%;
+}
+legend{
+    font-size: large;
+    font-weight: bold;
+}
+#copy{
+    background-color: rgb(166, 250, 166);
+    outline: none;
+    cursor: pointer;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
+#coupon{
+    outline: none;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: .5rem;
+}
